@@ -39,7 +39,7 @@ def recommend():
 
         data.append(item)
 
-    print(data)
+
 
     return render_template('recommend.html',data=data)
 
